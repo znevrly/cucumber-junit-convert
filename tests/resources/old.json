@@ -1,0 +1,435 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Expression currentDate feature",
+    "line": 1,
+    "id": "expression-currentdate-feature",
+    "tags": [],
+    "uri": "features\\dates.feature",
+    "elements": [
+      {
+        "id": "expression-currentdate-feature;date-freeze-and-current-date",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Date freeze and current date",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\hook-general.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "current date is \"2018-01-01\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "variable \"test\" is \"${currentDate}\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:33"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "variable \"test\" has value \"2018-01-01T00:00:00Z\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:265"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:333"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "expression-currentdate-feature;date-freeze-and-current-date-with-different-format-pattern",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Date freeze and current date with different format pattern",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\hook-general.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "current date is \"2018-01-01\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "current date format pattern is \"YYYY-MM-DD\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:9"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "variable \"test\" is \"${currentDate}\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:33"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "variable \"test\" has value \"2018-01-01\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:265"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:333"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "expression-currentdate-feature;date-freeze-and-shift-for-1-month-forward",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Date freeze and shift for 1 month forward",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\hook-general.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "current date is \"2018-01-01\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "variable \"test\" is \"${currentDate + 1 month}\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "variable \"test\" has value \"2018-02-01T00:00:00Z\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:265"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:333"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "expression-currentdate-feature;date-freeze-and-shift-for-3-days-forward",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Date freeze and shift for 3 days forward",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\hook-general.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "current date is \"2018-01-01\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:5"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "variable \"test\" is \"${currentDate + 3 days}\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "variable \"test\" has value \"2018-01-04T00:00:00Z\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:265"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:333"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "expression-currentdate-feature;date-freeze-and-shift-for-1-month-back",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Date freeze and shift for 1 month back",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\hook-general.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "current date is \"2018-01-01\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "variable \"test\" is \"${currentDate - 1 month}\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "variable \"test\" has value \"2017-12-01T00:00:00Z\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:265"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:333"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "expression-currentdate-feature;date-freeze-and-shift-for-1-day-back",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Date freeze and shift for 1 day back",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\hook-general.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "current date is \"2018-01-01\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:5"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "variable \"test\" is \"${currentDate - 1 day}\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:33"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "variable \"test\" has value \"2017-12-31T00:00:00Z\"",
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:265"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\bdd-rest-core\\rest-steps.js:333"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
