@@ -13,12 +13,14 @@ function convert(options) {
             if (result.status === 'failed') {
                 suite.testCase()
                      .name(scenario.name)
+                     .classname(scenario.id)
                      .failure(result.message)
                      .time(result.duration);            
             }
             else {
                 suite.testCase()
                      .name(scenario.name)
+                     .classname(scenario.id)
                      .time(result.duration);            
             }
         });

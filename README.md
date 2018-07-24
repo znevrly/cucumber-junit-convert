@@ -1,4 +1,4 @@
-Convert Cucumber.js json result file to XML Junit format. Unlike many similar libraries keeps Scenario == Testcase, not Step = Testcase
+Convert Cucumber.js json result file to XML Junit format. Unlike many similar libraries keeps Scenario = Testcase, not Step = Testcase.
 
 Installation
 ------------
@@ -29,6 +29,9 @@ License
 
 Changelog
 ---------
+
+### 1.0.1
+- Add classname to testcase
 
 ### 1.0.0
 - Initial release
