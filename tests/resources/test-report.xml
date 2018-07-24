@@ -1,177 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
   <testsuite name="Arrays examples" time="7.132000000000001" tests="7" failures="7" errors="0" skipped="0">
-    <testcase name="Check fields of array of objects with array variable (fetched from profile resource yaml file)" time="1.035">
+    <testcase name="Check fields of array of objects with array variable (fetched from profile resource yaml file)" classname="arrays-examples;check-fields-of-array-of-objects-with-array-variable-(fetched-from-profile-resource-yaml-file)" time="1.035">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responsePathValues (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:756:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:186:12)"/>
     </testcase>
-    <testcase name="Check if field of array of objects, for path is used JSON path syntax http://goessner.net/articles/JsonPath/, to test json path you can use http://jsonpath.com/" time="1.016">
+    <testcase name="Check if field of array of objects, for path is used JSON path syntax http://goessner.net/articles/JsonPath/, to test json path you can use http://jsonpath.com/" classname="arrays-examples;check-if-field-of-array-of-objects,-for-path-is-used-json-path-syntax-http://goessner.net/articles/jsonpath/,-to-test-json-path-you-can-use-http://jsonpath.com/" time="1.016">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responsePathContainsItems (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:768:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:190:12)"/>
     </testcase>
-    <testcase name="Check array of objects, for path is used JSON path syntax http://goessner.net/articles/JsonPath/, to test json path you can use http://jsonpath.com/" time="1.012">
+    <testcase name="Check array of objects, for path is used JSON path syntax http://goessner.net/articles/JsonPath/, to test json path you can use http://jsonpath.com/" classname="arrays-examples;check-array-of-objects,-for-path-is-used-json-path-syntax-http://goessner.net/articles/jsonpath/,-to-test-json-path-you-can-use-http://jsonpath.com/" time="1.012">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responsePathHasValues (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:780:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:194:12)"/>
     </testcase>
-    <testcase name="Check if array contains of objects, for path is used JSON path syntax http://goessner.net/articles/JsonPath/, to test json path you can use http://jsonpath.com/" time="1.018">
+    <testcase name="Check if array contains of objects, for path is used JSON path syntax http://goessner.net/articles/JsonPath/, to test json path you can use http://jsonpath.com/" classname="arrays-examples;check-if-array-contains-of-objects,-for-path-is-used-json-path-syntax-http://goessner.net/articles/jsonpath/,-to-test-json-path-you-can-use-http://jsonpath.com/" time="1.018">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responsePathContainsValues (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:794:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:198:12)"/>
     </testcase>
-    <testcase name="Array &quot;data&quot; should be in response and have at least one item" time="1.021">
+    <testcase name="Array &quot;data&quot; should be in response and have at least one item" classname="arrays-examples;array-&quot;data&quot;-should-be-in-response-and-have-at-least-one-item" time="1.021">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responseKeySizeAtLeast (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:822:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:210:12)"/>
     </testcase>
-    <testcase name="Array &quot;data&quot; should be exactly 3 items" time="1.012">
+    <testcase name="Array &quot;data&quot; should be exactly 3 items" classname="arrays-examples;array-&quot;data&quot;-should-be-exactly-3-items" time="1.012">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responseKeySizeIs (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:832:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:214:12)"/>
     </testcase>
-    <testcase name="Check if value is one of values (array variable)" time="1.018">
+    <testcase name="Check if value is one of values (array variable)" classname="arrays-examples;check-if-value-is-one-of-values-(array-variable)" time="1.018">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responseValueOneOf (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:686:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:230:12)"/>
     </testcase>
   </testsuite>
   <testsuite name="Expression currentDate feature" time="0.026999999999999996" tests="6" failures="0" errors="0" skipped="0">
-    <testcase name="Date freeze and current date" time="0.009"/>
-    <testcase name="Date freeze and current date with different format pattern" time="0.002"/>
-    <testcase name="Date freeze and shift for 1 month forward" time="0.008"/>
-    <testcase name="Date freeze and shift for 3 days forward" time="0.002"/>
-    <testcase name="Date freeze and shift for 1 month back" time="0.003"/>
-    <testcase name="Date freeze and shift for 1 day back" time="0.003"/>
+    <testcase name="Date freeze and current date" classname="expression-currentdate-feature;date-freeze-and-current-date" time="0.009"/>
+    <testcase name="Date freeze and current date with different format pattern" classname="expression-currentdate-feature;date-freeze-and-current-date-with-different-format-pattern" time="0.002"/>
+    <testcase name="Date freeze and shift for 1 month forward" classname="expression-currentdate-feature;date-freeze-and-shift-for-1-month-forward" time="0.008"/>
+    <testcase name="Date freeze and shift for 3 days forward" classname="expression-currentdate-feature;date-freeze-and-shift-for-3-days-forward" time="0.002"/>
+    <testcase name="Date freeze and shift for 1 month back" classname="expression-currentdate-feature;date-freeze-and-shift-for-1-month-back" time="0.003"/>
+    <testcase name="Date freeze and shift for 1 day back" classname="expression-currentdate-feature;date-freeze-and-shift-for-1-day-back" time="0.003"/>
   </testsuite>
   <testsuite name="Headers usage" time="5.0969999999999995" tests="5" failures="5" errors="0" skipped="0">
-    <testcase name="Add header" time="1.018">
+    <testcase name="Add header" classname="headers-usage;add-header" time="1.018">
       <failure message="TypeError: Cannot read property 'headers' of undefined&#xA;    at Object.responseHeaderValue (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:280:28)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:246:12)"/>
     </testcase>
-    <testcase name="Check if header exists and have some value" time="1.016">
+    <testcase name="Check if header exists and have some value" classname="headers-usage;check-if-header-exists-and-have-some-value" time="1.016">
       <failure message="TypeError: Cannot read property 'headers' of undefined&#xA;    at Object.responseHeaderValue (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:280:28)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:246:12)"/>
     </testcase>
-    <testcase name="Check if header exists and have one of value" time="1.029">
+    <testcase name="Check if header exists and have one of value" classname="headers-usage;check-if-header-exists-and-have-one-of-value" time="1.029">
       <failure message="TypeError: Cannot read property 'headers' of undefined&#xA;    at Object.responseHeaderIsOneOf (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:305:43)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:254:12)"/>
     </testcase>
-    <testcase name="Check if header exists and have one of value with variable value" time="1.018">
+    <testcase name="Check if header exists and have one of value with variable value" classname="headers-usage;check-if-header-exists-and-have-one-of-value-with-variable-value" time="1.018">
       <failure message="TypeError: Cannot read property 'headers' of undefined&#xA;    at Object.responseHeaderIsOneOf (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:305:43)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:254:12)"/>
     </testcase>
-    <testcase name="Response header can be stored to local/global variable" time="1.016">
+    <testcase name="Response header can be stored to local/global variable" classname="headers-usage;response-header-can-be-stored-to-local/global-variable" time="1.016">
       <failure message="TypeError: Cannot read property 'headers' of undefined&#xA;    at Object.responseHeaderAsVariable (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:312:28)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:142:12)"/>
     </testcase>
   </testsuite>
   <testsuite name="Request examples" time="6.975" tests="9" failures="4" errors="0" skipped="0">
-    <testcase name="GET request status code is 200" time="1.019">
+    <testcase name="GET request status code is 200" classname="request-examples;get-request-status-code-is-200" time="1.019">
       <failure message="AssertionError: assert.fail()&#xA;    at Object.responseStatus (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:502:10)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:138:12)"/>
     </testcase>
-    <testcase name="HEAD request status code is 200" time="1.015">
+    <testcase name="HEAD request status code is 200" classname="request-examples;head-request-status-code-is-200" time="1.015">
       <failure message="AssertionError: assert.fail()&#xA;    at Object.responseStatus (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:502:10)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:138:12)"/>
     </testcase>
-    <testcase name="Users is not creating if there is no body" time="0.82"/>
-    <testcase name="User should be created" time="0.45"/>
-    <testcase name="Admin should be created (body from variable)" time="0.56"/>
-    <testcase name="Admin is deleted" time="0.568"/>
-    <testcase name="User is updated with PATCH method" time="1.02">
+    <testcase name="Users is not creating if there is no body" classname="request-examples;users-is-not-creating-if-there-is-no-body" time="0.82"/>
+    <testcase name="User should be created" classname="request-examples;user-should-be-created" time="0.45"/>
+    <testcase name="Admin should be created (body from variable)" classname="request-examples;admin-should-be-created-(body-from-variable)" time="0.56"/>
+    <testcase name="Admin is deleted" classname="request-examples;admin-is-deleted" time="0.568"/>
+    <testcase name="User is updated with PATCH method" classname="request-examples;user-is-updated-with-patch-method" time="1.02">
       <failure message="AssertionError: There is no response for last request.Please generate report by command 'yarn report' to see more.&#xA;    at assetEmptyLastResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:939:10)&#xA;    at Object.responseValue (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:532:2)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:166:12)"/>
     </testcase>
-    <testcase name="User is updated with PUT method" time="1.019">
+    <testcase name="User is updated with PUT method" classname="request-examples;user-is-updated-with-put-method" time="1.019">
       <failure message="AssertionError: There is no response for last request.Please generate report by command 'yarn report' to see more.&#xA;    at assetEmptyLastResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:939:10)&#xA;    at Object.responseValue (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:532:2)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:166:12)"/>
     </testcase>
-    <testcase name="User is updated - PUT request with empty body" time="0.504"/>
+    <testcase name="User is updated - PUT request with empty body" classname="request-examples;user-is-updated---put-request-with-empty-body" time="0.504"/>
   </testsuite>
   <testsuite name="Response asserting" time="17.246" tests="17" failures="17" errors="0" skipped="0">
-    <testcase name="Response should return one page with 4 pages per 3" time="1.015">
+    <testcase name="Response should return one page with 4 pages per 3" classname="response-asserting;response-should-return-one-page-with-4-pages-per-3" time="1.015">
       <failure message="AssertionError: There is no response for last request.Please generate report by command 'yarn report' to see more.&#xA;    at assetEmptyLastResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:939:10)&#xA;    at Object.responseValue (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:532:2)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:166:12)"/>
     </testcase>
-    <testcase name="Response value contains substring" time="1.014">
+    <testcase name="Response value contains substring" classname="response-asserting;response-value-contains-substring" time="1.014">
       <failure message="AssertionError: There is no response for last request. Please generate report by command 'yarn report' to see more.&#xA;    at Object.responseValueContains (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:594:10)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:226:12)"/>
     </testcase>
-    <testcase name="Response value contains non empty value" time="1.013">
+    <testcase name="Response value contains non empty value" classname="response-asserting;response-value-contains-non-empty-value" time="1.013">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responseValueIsEmpty (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:609:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:238:12)"/>
     </testcase>
-    <testcase name="Response value contains non empty value using table" time="1.01">
+    <testcase name="Response value contains non empty value using table" classname="response-asserting;response-value-contains-non-empty-value-using-table" time="1.01">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responseValuesAreNotEmpty (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:514:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:242:12)"/>
     </testcase>
-    <testcase name="Response json path does not exist" time="1.015">
+    <testcase name="Response json path does not exist" classname="response-asserting;response-json-path-does-not-exist" time="1.015">
       <failure message="AssertionError: There is no response for last request. Please generate report by command 'yarn report' to see more.&#xA;    at Object.responseKeyDoesNotExist (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:620:10)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:178:12)"/>
     </testcase>
-    <testcase name="When multiple response values are checked then table can be used" time="1.018">
+    <testcase name="When multiple response values are checked then table can be used" classname="response-asserting;when-multiple-response-values-are-checked-then-table-can-be-used" time="1.018">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responseValues (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:630:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:154:12)"/>
     </testcase>
-    <testcase name="Json key can be used to narrow assertions data" time="1.016">
+    <testcase name="Json key can be used to narrow assertions data" classname="response-asserting;json-key-can-be-used-to-narrow-assertions-data" time="1.016">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responseKeyValues (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:707:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:158:12)"/>
     </testcase>
-    <testcase name="Response page should be equal with data[0].id (just example, makes no sense)" time="1.017">
+    <testcase name="Response page should be equal with data[0].id (just example, makes no sense)" classname="response-asserting;response-page-should-be-equal-with-data[0].id-(just-example,-makes-no-sense)" time="1.017">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responseKeysAreEqual (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:657:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:218:12)"/>
     </testcase>
-    <testcase name="Response value is null" time="1.017">
+    <testcase name="Response value is null" classname="response-asserting;response-value-is-null" time="1.017">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responsePathSizeIs (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:841:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:326:12)"/>
     </testcase>
-    <testcase name="Response body is empty" time="1.018">
+    <testcase name="Response body is empty" classname="response-asserting;response-body-is-empty" time="1.018">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responseIsEmpty (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:549:62)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:258:12)"/>
     </testcase>
-    <testcase name="Response body is not empty" time="1.013">
+    <testcase name="Response body is not empty" classname="response-asserting;response-body-is-not-empty" time="1.013">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responseBodyIsEmpty (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:525:62)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:262:12)"/>
     </testcase>
-    <testcase name="Response page should NOT be equal with data[1].id (just example, makes no sense)" time="1.013">
+    <testcase name="Response page should NOT be equal with data[1].id (just example, makes no sense)" classname="response-asserting;response-page-should-not-be-equal-with-data[1].id-(just-example,-makes-no-sense)" time="1.013">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responseKeysAreNotEqual (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:672:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:222:12)"/>
     </testcase>
-    <testcase name="Check if value is one of values (splitted by comma)" time="1.013">
+    <testcase name="Check if value is one of values (splitted by comma)" classname="response-asserting;check-if-value-is-one-of-values-(splitted-by-comma)" time="1.013">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responseValueOneOf (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:686:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:230:12)"/>
     </testcase>
-    <testcase name="Check if value is not one of values (splitted by comma)" time="1.013">
+    <testcase name="Check if value is not one of values (splitted by comma)" classname="response-asserting;check-if-value-is-not-one-of-values-(splitted-by-comma)" time="1.013">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responseValueNotOneOf (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:700:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:234:12)"/>
     </testcase>
-    <testcase name="Check fields of array of objects" time="1.014">
+    <testcase name="Check fields of array of objects" classname="response-asserting;check-fields-of-array-of-objects" time="1.014">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responsePathValuesTable (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:737:51)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:182:12)"/>
     </testcase>
-    <testcase name="Check if response path exists" time="1.013">
+    <testcase name="Check if response path exists" classname="response-asserting;check-if-response-path-exists" time="1.013">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responsePathExists (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:810:58)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:202:12)"/>
     </testcase>
-    <testcase name="Check if response path does not exists" time="1.014">
+    <testcase name="Check if response path does not exists" classname="response-asserting;check-if-response-path-does-not-exists" time="1.014">
       <failure message="TypeError: Cannot read property 'body' of undefined&#xA;    at Object.responsePathNotExists (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:816:58)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:206:12)"/>
     </testcase>
   </testsuite>
   <testsuite name="Tokens usage" time="0.012" tests="2" failures="0" errors="0" skipped="0">
-    <testcase name="JWT token decoding and use as local variable" time="0.007"/>
-    <testcase name="JWT token decoding and use as global variable" time="0.005"/>
+    <testcase name="JWT token decoding and use as local variable" classname="tokens-usage;jwt-token-decoding-and-use-as-local-variable" time="0.007"/>
+    <testcase name="JWT token decoding and use as global variable" classname="tokens-usage;jwt-token-decoding-and-use-as-global-variable" time="0.005"/>
   </testsuite>
   <testsuite name="Using variables" time="14.217999999999996" tests="21" failures="14" errors="0" skipped="0">
-    <testcase name="Import common data and use variables" time="1.02">
+    <testcase name="Import common data and use variables" classname="using-variables;import-common-data-and-use-variables" time="1.02">
       <failure message="AssertionError: assert.fail()&#xA;    at Object.responseStatus (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:502:10)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:138:12)"/>
     </testcase>
-    <testcase name="Import data and use variables" time="1.011">
+    <testcase name="Import data and use variables" classname="using-variables;import-data-and-use-variables" time="1.011">
       <failure message="AssertionError: assert.fail()&#xA;    at Object.responseStatus (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:502:10)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:138:12)"/>
     </testcase>
-    <testcase name="Re using stored value" time="1.016">
+    <testcase name="Re using stored value" classname="using-variables;re-using-stored-value" time="1.016">
       <failure message="AssertionError: There is no response for last request.Please generate report by command 'yarn report' to see more.&#xA;    at assetEmptyLastResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:939:10)&#xA;    at Object.setVariableFromResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:64:2)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:102:12)"/>
     </testcase>
-    <testcase name="Re using defined value" time="1.015">
+    <testcase name="Re using defined value" classname="using-variables;re-using-defined-value" time="1.015">
       <failure message="AssertionError: There is no response for last request.Please generate report by command 'yarn report' to see more.&#xA;    at assetEmptyLastResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:939:10)&#xA;    at Object.responseValue (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:532:2)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:166:12)"/>
     </testcase>
-    <testcase name="Import data and use array variable via index" time="1.015">
+    <testcase name="Import data and use array variable via index" classname="using-variables;import-data-and-use-array-variable-via-index" time="1.015">
       <failure message="AssertionError: assert.fail()&#xA;    at Object.responseStatus (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:502:10)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:138:12)"/>
     </testcase>
-    <testcase name="Use configured value from config file as local variable" time="0.002"/>
-    <testcase name="Use configured value from config file as global variable" time="0.005"/>
-    <testcase name="Profile variables" time="1.014">
+    <testcase name="Use configured value from config file as local variable" classname="using-variables;use-configured-value-from-config-file-as-local-variable" time="0.002"/>
+    <testcase name="Use configured value from config file as global variable" classname="using-variables;use-configured-value-from-config-file-as-global-variable" time="0.005"/>
+    <testcase name="Profile variables" classname="using-variables;profile-variables" time="1.014">
       <failure message="AssertionError: assert.fail()&#xA;    at Object.responseStatus (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:502:10)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:138:12)"/>
     </testcase>
-    <testcase name="Globals vars" time="1.016">
+    <testcase name="Globals vars" classname="using-variables;globals-vars" time="1.016">
       <failure message="AssertionError: assert.fail()&#xA;    at Object.responseStatus (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:502:10)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:138:12)"/>
     </testcase>
-    <testcase name="Variable has multi line value" time="0.003"/>
-    <testcase name="Variable value is random string" time="1.013">
+    <testcase name="Variable has multi line value" classname="using-variables;variable-has-multi-line-value" time="0.003"/>
+    <testcase name="Variable value is random string" classname="using-variables;variable-value-is-random-string" time="1.013">
       <failure message="AssertionError: assert.fail()&#xA;    at Object.responseStatus (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:502:10)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:138:12)"/>
     </testcase>
-    <testcase name="Assert two local variables are equal" time="0.004"/>
-    <testcase name="Assert local variable and global variable are equal" time="0.001"/>
-    <testcase name="Assert two existing variables are not equal" time="0.003"/>
-    <testcase name="Used random string" time="1.011">
+    <testcase name="Assert two local variables are equal" classname="using-variables;assert-two-local-variables-are-equal" time="0.004"/>
+    <testcase name="Assert local variable and global variable are equal" classname="using-variables;assert-local-variable-and-global-variable-are-equal" time="0.001"/>
+    <testcase name="Assert two existing variables are not equal" classname="using-variables;assert-two-existing-variables-are-not-equal" time="0.003"/>
+    <testcase name="Used random string" classname="using-variables;used-random-string" time="1.011">
       <failure message="AssertionError: assert.fail()&#xA;    at Object.responseStatus (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:502:10)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:138:12)"/>
     </testcase>
-    <testcase name="Variable value is random numberic value" time="1.009">
+    <testcase name="Variable value is random numberic value" classname="using-variables;variable-value-is-random-numberic-value" time="1.009">
       <failure message="AssertionError: assert.fail()&#xA;    at Object.responseStatus (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:502:10)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:138:12)"/>
     </testcase>
-    <testcase name="Variable value is random boolean" time="0.004"/>
-    <testcase name="Evaluated variable and newly assigned variables are known" time="1.013">
+    <testcase name="Variable value is random boolean" classname="using-variables;variable-value-is-random-boolean" time="0.004"/>
+    <testcase name="Evaluated variable and newly assigned variables are known" classname="using-variables;evaluated-variable-and-newly-assigned-variables-are-known" time="1.013">
       <failure message="AssertionError: There is no response for last request.Please generate report by command 'yarn report' to see more.&#xA;    at assetEmptyLastResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:939:10)&#xA;    at Object.setVariableFromResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:64:2)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:102:12)"/>
     </testcase>
-    <testcase name="Newly created variable is unknown (changing in time), just verify if has any value" time="1.014">
+    <testcase name="Newly created variable is unknown (changing in time), just verify if has any value" classname="using-variables;newly-created-variable-is-unknown-(changing-in-time),-just-verify-if-has-any-value" time="1.014">
       <failure message="AssertionError: There is no response for last request.Please generate report by command 'yarn report' to see more.&#xA;    at assetEmptyLastResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:939:10)&#xA;    at Object.setVariableFromResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:64:2)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:102:12)"/>
     </testcase>
-    <testcase name="Evaluated variable has any value" time="1.013">
+    <testcase name="Evaluated variable has any value" classname="using-variables;evaluated-variable-has-any-value" time="1.013">
       <failure message="AssertionError: There is no response for last request.Please generate report by command 'yarn report' to see more.&#xA;    at assetEmptyLastResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:939:10)&#xA;    at Object.setVariableFromResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:64:2)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:102:12)"/>
     </testcase>
-    <testcase name="Evaluated variable is empty" time="1.016">
+    <testcase name="Evaluated variable is empty" classname="using-variables;evaluated-variable-is-empty" time="1.016">
       <failure message="AssertionError: There is no response for last request.Please generate report by command 'yarn report' to see more.&#xA;    at assetEmptyLastResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:939:10)&#xA;    at Object.setVariableFromResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:64:2)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:102:12)"/>
     </testcase>
   </testsuite>

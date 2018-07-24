@@ -30,6 +30,9 @@ License
 Changelog
 ---------
 
+### 1.0.2
+- fix typo
+
 ### 1.0.1
 - Add classname to testcase
 
