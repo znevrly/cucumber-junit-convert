@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Simple.feature.name" time="1" tests="1" failures="1" errors="0" skipped="0">
+    <testcase name="Simple.scenario.name" classname="Simple.scenario.id" time="1">
+      <failure message="Simple.fail.message"/>
+    </testcase>
+  </testsuite>
+</testsuites>

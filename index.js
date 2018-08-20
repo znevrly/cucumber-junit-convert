@@ -3,6 +3,7 @@ const fs = require("fs");
 const jsonFile = require('jsonfile');
 
 function convert(options) {
+    builder = builder.newBuilder();
     const jsonFileResult = jsonFile.readFileSync(options.inputJsonFile);
     jsonFileResult.forEach(function (feature) {
         let durationInSec = 0;

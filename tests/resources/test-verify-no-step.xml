@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="NoStep.feature.name" time="0" tests="1" failures="0" errors="0" skipped="0">
+    <testcase name="NoStep.scenario.name" classname="NoStep.scenario.id" time="0"/>
+  </testsuite>
+</testsuites>

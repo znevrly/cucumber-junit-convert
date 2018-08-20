@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Simple.feature.name",
+    "elements": [
+      {
+        "id": "Simple.scenario.id",
+        "name": "Simple.scenario.name",
+        "steps": [
+          {
+            "result": {
+              "status": "failed",
+              "duration": 1000000000,
+              "error_message": "Simple.fail.message"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

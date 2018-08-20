@@ -1,0 +1,43 @@
+[
+  {
+    "name": "suite",
+    "elements": [
+      {
+        "id": "id",
+        "name": "case",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 111111
+            }
+          },
+          {
+            "result": {
+              "status": "",
+              "duration": 1111111
+            }
+          },
+          {
+            "result": {
+              "status": "",
+              "duration": 11111111
+            }
+          },
+          {
+            "result": {
+              "status": "",
+              "duration": 111111111
+            }
+          },
+          {
+            "result": {
+              "status": "",
+              "duration": 1111111111
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
