@@ -1,0 +1,12 @@
+[
+  {
+    "name": "NoStep.feature.name",
+    "elements": [
+      {
+        "id": "NoStep.scenario.id",
+        "name": "NoStep.scenario.name",
+        "steps": []
+      }
+    ]
+  }
+]

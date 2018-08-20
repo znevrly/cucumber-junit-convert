@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="multiple.features.1" time="0" tests="1" failures="0" errors="0" skipped="0">
+    <testcase name="Simple.scenario.name" classname="Simple.scenario.id" time="0"/>
+  </testsuite>
+  <testsuite name="multiple.features.2" time="0" tests="1" failures="0" errors="0" skipped="0">
+    <testcase name="multiple.features.name" classname="multiple.features.id" time="0"/>
+  </testsuite>
+  <testsuite name="multiple.features.3" time="0" tests="1" failures="0" errors="0" skipped="0">
+    <testcase name="multiple.features.name" classname="multiple.features.id" time="0"/>
+  </testsuite>
+  <testsuite name="multiple.features.4" time="0" tests="1" failures="0" errors="0" skipped="0">
+    <testcase name="multiple.features.name" classname="multiple.features.id" time="0"/>
+  </testsuite>
+  <testsuite name="multiple.features.5" time="0" tests="1" failures="0" errors="0" skipped="0">
+    <testcase name="multiple.features.name" classname="multiple.features.id" time="0"/>
+  </testsuite>
+</testsuites>

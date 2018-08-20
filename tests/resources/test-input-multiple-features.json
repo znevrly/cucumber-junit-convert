@@ -1,0 +1,52 @@
+[
+  {
+    "name": "multiple.features.1",
+    "elements": [
+      {
+        "id": "Simple.scenario.id",
+        "name": "Simple.scenario.name",
+        "steps": []
+      }
+    ]
+  },
+  {
+    "name": "multiple.features.2",
+    "elements": [
+      {
+        "id": "multiple.features.id",
+        "name": "multiple.features.name",
+        "steps": []
+      }
+    ]
+  },
+  {
+    "name": "multiple.features.3",
+    "elements": [
+      {
+        "id": "multiple.features.id",
+        "name": "multiple.features.name",
+        "steps": []
+      }
+    ]
+  },
+  {
+    "name": "multiple.features.4",
+    "elements": [
+      {
+        "id": "multiple.features.id",
+        "name": "multiple.features.name",
+        "steps": []
+      }
+    ]
+  },
+  {
+    "name": "multiple.features.5",
+    "elements": [
+      {
+        "id": "multiple.features.id",
+        "name": "multiple.features.name",
+        "steps": []
+      }
+    ]
+  }
+]

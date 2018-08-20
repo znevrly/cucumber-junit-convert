@@ -5,10 +5,15 @@
   "main": "index.js",
   "dependencies": {
     "junit-report-builder": "1.3.1",
-    "jsonfile": "4.0.0"
+    "jsonfile": "4.0.0",
+    "jest": "5.6.0"
   },
   "scripts": {
-    "test": "node tests/index.js"
+    "test": "jest --watchAll",
+    "testgen": "node tests/index.js"
+  },
+  "jest": {
+    "testPathIgnorePatterns": []
   },
   "repository": {
     "type": "git",

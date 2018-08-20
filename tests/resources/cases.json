@@ -1,0 +1,32 @@
+[  
+   {
+    "file": "default",
+    "case": "Defaul cucumber report"
+   },
+   {
+    "file": "no-step",
+    "case": "Scenario with no steps"
+   },
+   {
+    "file": "single-onestep",
+    "case": "Single json with one step"
+   },
+   {
+    "file": "empty-json",
+    "case": "Empty json file shall return empty xml"
+   },
+   {
+    "file": "multiple-features",
+    "case": "Multiple features"
+   },
+   {
+    "case": "Suite duration adding up",
+    "file": "duration-suite",
+    "toMatch": "name=\"suite\" time=\"1.234555555\""
+   },
+   {
+    "case": "Case duration adding up",
+    "file": "duration-case",
+    "toMatch": "classname=\"id\" time=\"1.234555555\""
+   }
+]
