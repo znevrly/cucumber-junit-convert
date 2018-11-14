@@ -1,3 +1,6 @@
+<a href="https://snyk.io/test/github/znevrly/cucumber-junit-convert"><img src="https://snyk.io/test/github/znevrly/cucumber-junit-convert/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/znevrly/cucumber-junit-convert" style="max-width:100%;"></a>
+
+
 Convert Cucumber.js json result file to XML Junit format. Unlike many similar libraries keeps Scenario = Testcase, not Step = Testcase.
 
 Installation
