@@ -33,6 +33,10 @@ License
 Changelog
 ---------
 
+### 1.1.0
+- test cases are marked as skipped when at least one step was pending or skipped, and there was no failure
+- update dependencies
+
 ### 1.0.2
 - fix typo
 
