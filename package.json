@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "junit-report-builder": "1.3.1",
-    "jsonfile": "4.0.0"
+    "junit-report-builder": "1.3.3",
+    "jsonfile": "5.0.0"
   },
   "scripts": {
     "test": "node tests/index.js"
