@@ -15,13 +15,20 @@ function convert(options) {
                      .name(scenario.name)
                      .className(scenario.id)
                      .failure(result.message)
-                     .time(result.duration);            
+                     .time(result.duration);
+            }
+            else if (result.status === 'skipped') {
+                suite.testCase()
+                     .name(scenario.name)
+                     .className(scenario.id)
+                     .skipped()
+                     .time(result.duration);
             }
             else {
                 suite.testCase()
                      .name(scenario.name)
                      .className(scenario.id)
-                     .time(result.duration);            
+                     .time(result.duration);
             }
         });
         suite.time(durationInSec);
@@ -40,7 +47,9 @@ function getScenarioSummary(scenario) {
         if (step.result.status == 'failed') {
             status = 'failed';
             message = step.result.error_message;
-        } 
+        } else if (status == 'passed' && (step.result.status == 'pending' || step.result.status == 'skipped')) {
+            status = 'skipped';
+        }
     });
     const durationInSec = duration / 1000000000; //ns to sec
     return { status: status, 
