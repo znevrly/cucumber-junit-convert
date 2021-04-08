@@ -175,4 +175,8 @@
       <failure message="AssertionError: There is no response for last request.Please generate report by command 'yarn report' to see more.&#xA;    at assetEmptyLastResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:939:10)&#xA;    at Object.setVariableFromResponse (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps-api.js:64:2)&#xA;    at customWorld.&lt;anonymous> (c:\repos\bdd-rest-testing\node_modules\bdd-rest-core\rest-steps.js:102:12)"/>
     </testcase>
   </testsuite>
+  <testsuite name="Background test feature" time="0.001" tests="2" failures="0" errors="0" skipped="0">
+    <testcase name="Scenario 1" classname="background-test-feature;scenario-1" time="0"/>
+    <testcase name="Scenario 2" classname="background-test-feature;scenario-2" time="0.001"/>
+  </testsuite>
 </testsuites>
