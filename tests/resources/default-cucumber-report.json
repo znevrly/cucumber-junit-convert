@@ -5355,5 +5355,144 @@
         ]
       }
     ]
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "some precondition",
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "\\steps\\backgroundSteps.js:4"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 5,
+            "name": "some other precondition",
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "\\steps\\backgroundSteps.js:4"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "background-test-feature;scenario-1",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Scenario 1",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "I do something",
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps\\backgroundSteps.js:7"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "some result",
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps\\backgroundSteps.js:10"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "some precondition",
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps\\backgroundSteps.js:4"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 5,
+            "name": "some other precondition",
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps\\backgroundSteps.js:4"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "background-test-feature;scenario-2",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Scenario 2",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 12,
+            "name": "I do something",
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps\\backgroundSteps.js:7"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 13,
+            "name": "some result",
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps\\backgroundSteps.js:10"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "background-test-feature",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Background test feature",
+    "uri": "features\\backgroundTest.feature"
   }
 ]

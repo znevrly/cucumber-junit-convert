@@ -8,6 +8,10 @@ function convert(options) {
         let durationInSec = 0;
         const suite = builder.testSuite().name(feature.name);
         feature.elements.forEach(function (scenario) {
+            if (scenario.type == "background") {
+                return;
+            }
+
             const result = getScenarioSummary(scenario);
             durationInSec += result.duration;
             if (result.status === 'failed') {
