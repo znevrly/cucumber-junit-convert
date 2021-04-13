@@ -32,6 +32,8 @@ License
 
 Changelog
 ---------
+### 1.1.1
+- fixed https://github.com/znevrly/cucumber-junit-convert/issues/5
 
 ### 1.1.0
 - test cases are marked as skipped when at least one step was pending or skipped, and there was no failure
