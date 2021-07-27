@@ -22,6 +22,7 @@ function convert(options) {
             .className(scenario.id)
             .standardError(result.message)
             .errorAttachment(result.embeddings[0])
+            .failure(result.message)
             .time(result.duration);
         } else {
           suite
