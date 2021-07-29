@@ -33,8 +33,8 @@ License
 Changelog
 ---------
 
-### 1.2.0
-add embeddings support 
+### 2.0.0
+- add embeddings support 
 
 ### 1.1.1
 - fixed https://github.com/znevrly/cucumber-junit-convert/issues/5
