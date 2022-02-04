@@ -18,7 +18,8 @@ const cucumberJunitConvert = require('cucumber-junit-convert');
 
 const options = {
     inputJsonFile: '<filename>.json',
-    outputXmlFile: '<filename>.xml'
+    outputXmlFile: '<filename>.xml',
+    featureNameAsClassName: true // default: false
 }
 
 cucumberJunitConvert.convert(options);
@@ -32,6 +33,9 @@ License
 
 Changelog
 ---------
+
+### 2.1.0
+- add option to use the Feature name as the JUnit className: `featureNameAsClassName`
 
 ### 2.0.0
 - add embeddings support 
