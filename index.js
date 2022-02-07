@@ -13,9 +13,10 @@ function convert(options) {
       }
 
       const result = getScenarioSummary(scenario);
+      const className = options.featureNameAsClassName ? feature.name : scenario.id;
+
       durationInSec += result.duration;
       if (result.status === 'failed') {
-        const className = options.featureNameAsClassName ? feature.name : scenario.id;
         
         if (result.embeddings.length) {
           suite
