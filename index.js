@@ -15,11 +15,13 @@ function convert(options) {
       const result = getScenarioSummary(scenario);
       durationInSec += result.duration;
       if (result.status === 'failed') {
+        const className = options.featureNameAsClassName ? feature.name : scenario.id;
+        
         if (result.embeddings.length) {
           suite
             .testCase()
             .name(scenario.name)
-            .className(scenario.id)
+            .className(className)
             .standardError(result.message)
             .errorAttachment(result.embeddings[0])
             .failure(result.message)
@@ -28,7 +30,7 @@ function convert(options) {
           suite
             .testCase()
             .name(scenario.name)
-            .className(scenario.id)
+            .className(className)
             .failure(result.message)
             .time(result.duration);
         }
@@ -36,14 +38,14 @@ function convert(options) {
         suite
           .testCase()
           .name(scenario.name)
-          .className(scenario.id)
+          .className(className)
           .skipped()
           .time(result.duration);
       } else {
         suite
           .testCase()
           .name(scenario.name)
-          .className(scenario.id)
+          .className(className)
           .time(result.duration);
       }
     });
