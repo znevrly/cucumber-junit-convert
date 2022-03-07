@@ -33,6 +33,8 @@ License
 
 Changelog
 ---------
+### 2.1.1
+bugfixing Feature name as the JUnit className
 
 ### 2.1.0
 - add option to use the Feature name as the JUnit className: `featureNameAsClassName`
