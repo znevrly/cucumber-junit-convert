@@ -4,9 +4,10 @@ const jsonFile = require('jsonfile');
 
 function convert(options) {
   const jsonFileResult = jsonFile.readFileSync(options.inputJsonFile);
+  const reportBuilder = builder.newBuilder();
   jsonFileResult.forEach(function(feature) {
     let durationInSec = 0;
-    const suite = builder.testSuite().name(feature.name);
+    const suite = reportBuilder.testSuite().name(feature.name);
     feature.elements.forEach(function(scenario) {
       if (scenario.type == 'background') {
         return;
@@ -52,7 +53,7 @@ function convert(options) {
     });
     suite.time(durationInSec);
   });
-  builder.writeTo(options.outputXmlFile);
+  reportBuilder.writeTo(options.outputXmlFile);
 }
 
 function getScenarioSummary(scenario) {
