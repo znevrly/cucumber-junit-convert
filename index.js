@@ -13,7 +13,7 @@ function convert(options) {
         return;
       }
 
-      const result = getScenarioSummary(scenario);
+      const result = getScenarioSummary(scenario, options);
       const className = options.featureNameAsClassName ? feature.name : scenario.id;
 
       durationInSec += result.duration;
@@ -56,7 +56,7 @@ function convert(options) {
   reportBuilder.writeTo(options.outputXmlFile);
 }
 
-function getScenarioSummary(scenario) {
+function getScenarioSummary(scenario, options) {
   let status = 'passed';
   let message = null;
   let duration = 0;
@@ -71,7 +71,7 @@ function getScenarioSummary(scenario) {
       embeddings.push(step.embeddings[0].data);
     }
 
-    if (step.result.status == 'failed') {
+    if (step.result.status == 'failed' || options.failOnUndefinedStep && step.result.status == 'undefined') {
       status = 'failed';
       message = step.result.error_message;
     } else if (
