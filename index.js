@@ -71,7 +71,7 @@ function getScenarioSummary(scenario, options) {
       embeddings.push(step.embeddings[0].data);
     }
 
-    if (step.result.status == 'failed' || options.failOnUndefinedStep && step.result.status == 'undefined') {
+    if (step.result.status == 'failed' || !!options.failOnUndefinedStep && step.result.status == 'undefined') {
       status = 'failed';
       message = step.result.error_message;
     } else if (
