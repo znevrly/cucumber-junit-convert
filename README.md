@@ -19,7 +19,8 @@ const cucumberJunitConvert = require('cucumber-junit-convert');
 const options = {
     inputJsonFile: '<filename>.json',
     outputXmlFile: '<filename>.xml',
-    featureNameAsClassName: true // default: false
+    featureNameAsClassName: true, // default: false
+    failOnUndefinedStep: false // default: false
 }
 
 cucumberJunitConvert.convert(options);
