@@ -28,6 +28,7 @@ function convert(options) {
             .errorAttachment(result.embeddings[0] + result.embeddings[2]) 
             .failure(result.message)
             .time(result.duration);
+          console.log(result.embeddings[2])
         } else {
           suite
             .testCase()
