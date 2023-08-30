@@ -25,10 +25,9 @@ function convert(options) {
             .name(scenario.name)
             .className(className)
             .standardError(result.message)
-            .errorAttachment(result.embeddings[0] + result.embeddings[2]) 
+            .errorAttachment(result.embeddings) 
             .failure(result.message)
             .time(result.duration);
-          console.log('Result: ', result.embeddings[2])
         } else {
           suite
             .testCase()
@@ -69,7 +68,8 @@ function getScenarioSummary(scenario, options) {
     }
 
     if (step.embeddings && step.embeddings.length > 0) {
-      embeddings.push(step.embeddings[0].data);
+
+      embeddings.push(step.embeddings[2].data);
     }
 
     if (step.result.status == 'failed' || !!options.failOnUndefinedStep && step.result.status == 'undefined') {
