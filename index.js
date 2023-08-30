@@ -69,7 +69,6 @@ function getScenarioSummary(scenario, options) {
 
     if (step.embeddings && step.embeddings.length > 0) {
        embeddings.push(step.embeddings[0].data);
-       embeddings.push("\n");
        embeddings.push(step.embeddings[2].data);
       
     }
