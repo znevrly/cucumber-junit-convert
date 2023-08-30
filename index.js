@@ -68,10 +68,8 @@ function getScenarioSummary(scenario, options) {
     }
 
     if (step.embeddings && step.embeddings.length > 0) {
-      for(let i =0; i < embeddings.length; i++){
         embeddings.push(step.embeddings[0].data);
         embeddings.push(step.embeddings[2].data);
-      } 
       
     }
 
