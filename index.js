@@ -68,9 +68,14 @@ function getScenarioSummary(scenario, options) {
     }
 
     if (step.embeddings && step.embeddings.length > 0) {
-       embeddings.push(step.embeddings[0].data);
-       embeddings.push("\n");
-       embeddings.push(step.embeddings[2].data);
+      //  embeddings.push(step.embeddings[0].data);
+      //  embeddings.push("\n");
+      //  embeddings.push(step.embeddings[2].data);
+      for(let i = 0; i < embeddings.length; i++){
+        if(i == 0 || i== 2){
+          embeddings.push(step.embeddings[i].data)
+        }
+      }
       
     }
 
