@@ -71,7 +71,7 @@ function getScenarioSummary(scenario, options) {
       //  embeddings.push(step.embeddings[0].data);
       //  embeddings.push("\n");
       //  embeddings.push(step.embeddings[2].data);
-      for(let i = 0; i < embeddings.length; i++){
+      for(let i of embeddings.length){
         if(i == 0 || i== 2){
           embeddings.push(step.embeddings[i].data)
         }
