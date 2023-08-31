@@ -69,6 +69,8 @@ function getScenarioSummary(scenario, options) {
 
     if (step.embeddings && step.embeddings.length > 0) {
       for(let i = 0; i < step.embeddings.length; i++){
+        embeddings.push(step.embeddings[i].data + '\n')
+        }
         if(i === 0 || i === 2){
           embeddings.push(step.embeddings[i].data + '\n')
         }
