@@ -68,7 +68,7 @@ function getScenarioSummary(scenario, options) {
     }
 
     if (step.embeddings && step.embeddings.length > 0) {
-      console.log('Intial embeddings: ', embeddings)
+      console.log('Intial embeddings: ', step.embeddings)
       const originalLength = embeddings.length
       for(let i = 0; i < originalLength; i++){
         if(i === 0 || i === 2){
