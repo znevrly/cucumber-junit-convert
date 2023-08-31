@@ -68,15 +68,11 @@ function getScenarioSummary(scenario, options) {
     }
 
     if (step.embeddings && step.embeddings.length > 0) {
-      console.log('length: ', step.embeddings.length)
-      const originalLength = step.embeddings.length
-      for(let i = 0; i < originalLength; i++){
+      for(let i = 0; i < step.embeddings.length; i++){
         if(i === 0 || i === 2){
-          console.log('First index', step.embeddings[0].data)
           embeddings.push(step.embeddings[i].data)
         }
       }
-      
     }
 
     if (step.result.status == 'failed' || !!options.failOnUndefinedStep && step.result.status == 'undefined') {
