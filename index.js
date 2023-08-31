@@ -68,13 +68,12 @@ function getScenarioSummary(scenario, options) {
     }
 
     if (step.embeddings && step.embeddings.length > 0) {
-      let itemsToPush = []
-      for(let i = 0; i < embeddings.length; i++){
+      const originalLength = embeddings.length
+      for(let i = 0; i < originalLength; i++){
         if(i === 0 || i === 2){
-          itemsToPush.push(step.embeddings[i].data)
+          embeddings.push(step.embeddings[i].data)
         }
       }
-      embeddings.push(...itemsToPush)
       
     }
 
