@@ -25,7 +25,7 @@ function convert(options) {
             .name(scenario.name)
             .className(className)
             .standardError(result.message)
-            .errorAttachment(result.embeddings[0])
+            .errorAttachment(result.embeddings) 
             .failure(result.message)
             .time(result.duration);
         } else {
@@ -68,7 +68,10 @@ function getScenarioSummary(scenario, options) {
     }
 
     if (step.embeddings && step.embeddings.length > 0) {
-      embeddings.push(step.embeddings[0].data);
+      for(let i = 0; i < step.embeddings.length; i++){
+          embeddings.push(step.embeddings[i].data + '\n')
+
+      }
     }
 
     if (step.result.status == 'failed' || !!options.failOnUndefinedStep && step.result.status == 'undefined') {
